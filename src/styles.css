@@ -23,10 +23,8 @@ body {
 
 .day-name-container {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(5, 1fr);
   height: 3vh;
-  text-align: center;
 }
 
 .calendar-container {
