@@ -21,6 +21,7 @@ export class CalendarComponent implements OnInit {
   constructor(private dateService: DateService) {}
 
   ngOnInit() {
+    // test
     this.currentMonth = this.dateService.setCurrentMonth();
     this.currentMonthNumber = this.dateService.setCurrentMonthNumber();
     this.currentYear = this.dateService.setCurrentYear();
